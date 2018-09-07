@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.license      = "Copyright"
 
-  s.author             = { "Pranesh" => "phvallabh@gmail.com }
+  s.author             = { "Pranesh" => "phvallabh@gmail.com"}
 
   s.platform     = :ios
 
@@ -30,8 +30,11 @@ Pod::Spec.new do |s|
 
   s.frameworks = "UIKit", "Foundation"
 
+  s.requires_arc = true
   s.dependency "Alamofire"
   s.dependency "Swinject"
   s.dependency "Cuckoo"
+
+  s.swift_version = "4.2"
 
 end
