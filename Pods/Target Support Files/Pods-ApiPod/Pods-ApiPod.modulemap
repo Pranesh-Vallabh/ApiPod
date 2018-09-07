@@ -1,0 +1,6 @@
+framework module Pods_ApiPod {
+  umbrella header "Pods-ApiPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
