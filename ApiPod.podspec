@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency "Alamofire"
   s.dependency "Swinject"
-  s.dependency "Cuckoo"
+  
 
   s.swift_version = "4.2"
 
